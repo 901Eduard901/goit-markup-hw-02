@@ -1,0 +1,220 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста  #757575; */
+/* третий цвет текста  rgba(255, 255, 255, 0.6); */
+/* белый #FFFFFF  */
+/* акцент #2196F3 */
+/* вторичный цвет фона #E5E5E5; */
+/* третий цвет фона #2F303A; */
+/* четвёртый цвет фона #F5F4FA; */
+
+:root {
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --third-text-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --second-bgc:#E5E5E5;
+    --third-bgc:#2F303A;
+  }
+
+/* Body */
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+
+
+/* Logo */
+
+.logo {
+    color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+  }
+  
+.logo:hover,
+.span {
+    color: var(--accent-color);
+  }
+
+
+/* Site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+  }
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+  }
+
+
+/*Contacts header list*/
+
+.contacts-header .link {
+    color: var(--title-text-color);
+    font-weight: 500; 
+  }
+  
+.contacts-header .link:hover,
+.contacts-header .link:focus {
+    color: var(--accent-color);
+  }
+.list {
+    list-style: none;
+  }  
+.link { 
+    text-decoration: none;
+  } 
+
+
+/* Hero */
+
+.hero-title {
+    color: #ffffff;
+    background: var(--third-bgc);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+  }
+
+
+/* Features и Examples */
+
+.feature-list .title {
+    color: var(--title-text-color);
+    font-weight: bold;
+  }  
+
+.examples {
+    line-height: 1.71;
+  }
+  
+
+/* Workers и Career */ 
+
+.workers-list .title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18; 
+  }
+
+.career {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+  }  
+
+
+/* Button */
+
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    display: flex;
+    text-decoration: none;
+  }
+
+
+/* Footer */
+
+.footer-logo {
+    color: var(--primary-white-color);
+    background-color: var(--third-bgc);
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+  }
+
+.contacts-footer .adres {
+    color: var(--primary-white-color);
+    background-color: var(--third-bgc);
+    line-height: 1.71;
+    font-style: normal; 
+  } 
+
+.contacts-footer .link {
+    color: var(--third-text-color);
+    background-color: var(--third-bgc);
+    line-height: 1.71;
+    font-style: normal; 
+  }
+
+
+/* Portfolio page */
+
+/* Меню на странице портфолио */ 
+
+.menu-title {
+    visibility: hidden;
+}
+
+.btn {
+    color: var(--title-text-color);
+    background-color:#F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    
+  }
+.menu-item .btn:hover,
+.menu-item .btn:focus {
+      color: var(--primary-white-color);
+      background-color: var(--accent-color);
+  }
+  
+
+/* Наши проекты и компоненты */ 
+
+.project-title {
+    visibility: hidden;
+}
+
+.projects-list .projtitle {
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em; 
+  }
+
+.komponent {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+  }
