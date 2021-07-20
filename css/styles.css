@@ -144,6 +144,7 @@ body {
     letter-spacing: 0.06em;
     display: flex;
     text-decoration: none;
+    cursor: pointer;
   }
 
 
@@ -189,6 +190,7 @@ body {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    cursor: pointer;
     
   }
 .menu-item .btn:hover,
