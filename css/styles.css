@@ -58,6 +58,9 @@ body {
     color: var(--accent-color);
   }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+  }  
 
 /*Contacts header list*/
 
